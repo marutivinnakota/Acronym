@@ -2,8 +2,8 @@
 //  HomeViewController.m
 //  Acronym
 //
-//  Created by Karthik Vinnakota on 4/19/16.
-//  Copyright © 2016 Karthik Vinnakota. All rights reserved.
+//  Created by Maruti Vinnakota on 4/19/16.
+//  Copyright © 2016 Maruti Vinnakota. All rights reserved.
 //
 
 #import "HomeViewController.h"
@@ -197,10 +197,7 @@
 
 #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
 
     if ([segue.identifier isEqualToString:@"VariationsIdentifier"]) {
         NSIndexPath *indexPath = [self.acronymTableView indexPathForSelectedRow];
